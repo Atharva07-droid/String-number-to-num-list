@@ -1,0 +1,6 @@
+nums = input("Enter a string of numbers seperated by a , ")
+nums1 = nums.split(',')
+nums2 =[]
+for char in nums1:
+    nums2.append(int(char))
+print(nums2)
